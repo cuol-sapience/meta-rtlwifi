@@ -5,7 +5,7 @@ LIC_FILES_CHKSUM = "file://core/rtw_ap.c;md5=a43e610cf16f15641fa3a0fe21b6e40e "
 
 SRCREV = "ae4c11130ee931df10bb9cc88c2cd0a7d3968fe2"
 SRC_URI = " \
-	https://github.com/juanro49/rtl88x2ce-dkms;protocol=https;branch=master \
+	git://github.com/juanro49/rtl88x2ce-dkms;protocol=https;branch=master \
 	file://0001-fix-makefile.patch \
 "
 PV = "5.7.3-git"
